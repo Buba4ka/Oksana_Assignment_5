@@ -1,5 +1,7 @@
 package com.coderscampus.arraylist;
 
+import java.util.Arrays;
+
 public class ArrayListApplication {
 
 	public static void main(String[] args) {
@@ -27,6 +29,10 @@ public class ArrayListApplication {
 		items.add(19);
 		items.add(20);
 		items.add(21);
+		items.add(0,21);
+		items.remove(21);
+		items.add(2,33);
+		
 			
 
 		
